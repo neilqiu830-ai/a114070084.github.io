@@ -1,28 +1,36 @@
 .neilcenter{
     text-align: center;
-    color:rgb(7, 23, 108);
-    background-color: chocolate;
+    color: rgb(255, 255, 255);
+    background-color: #095a55;
+    background-size: 60px;
+    font-size: 60px;
 }
 .pitchcenter{
-    background-color: rgb(201, 150, 99);
-    border: 5px solid rgb(161, 215, 196);
+    background-color: #713040;
+    border: 5px solid rgb(2, 71, 47);
     padding: 40px;
     border-radius: 20px 20px 20px 20px;
     margin: 0 auto;
     width: 80%;
-    height: 200px;
     overflow: auto;
 }
 .basecenter{
     text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+}
+.firstbasecenter{
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 a.catchercenter{
-    color:rgb(255, 187, 0);
+    background-color:#7eccc6e6;
+    color:#095a55;
     padding:0 30px;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 .catchercenter:hover{
-    background-color: rgb(0, 255, 213);
+    background-color: #095a55;
     color:aliceblue;
 }
 .andybig{
@@ -32,31 +40,64 @@ a.catchercenter{
 .andygo{
     font-size: 50px;
     text-align: center;
+    color: #d78524;
+    text-decoration: underline;
+}
+.andygo:hover {
+  color: #16e1e4;
 }
 .leftcenter{
     text-align: right;
 }
 .centercenter{
     text-align: center;
+    font-size: 60px;
+    color:rgb(255, 255, 255);
 }
 .rightcenter{
     color: rgb(46, 130, 20);
 }
 section#about{
     background-color:rgb(234, 188, 144);
-    background-image: url("../assets/img/111.jpg");
+    background-image: url("../assets/img/blue.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
-section#awards{
-    background-color: blanchedalmond;
-}
+
 section#about div{
     color: aliceblue;
 }
 .shortcenter{
     text-align: center;
     color: rgb(255, 187, 0);
+}
+.couchcenter{
+    background-color:#095a55 ;
+}
+.sscenter{
+    font-size: 30px;
+    font-weight: 600;
+}
+.secondbasecenter{
+    color:rgb(133, 135, 139)
+}
+.neilpic{
+    width: 98%;
+    border-radius: 10px;
+}
+.noto-serif-tc {
+  font-family: "Noto Serif TC", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+section#contact{
+    background-color:rgb(234, 188, 144);
+    background-image: url("../assets/img/band.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
